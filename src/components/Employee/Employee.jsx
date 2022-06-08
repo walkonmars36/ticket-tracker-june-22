@@ -8,7 +8,7 @@ const Employee = ({teamMember}) => {
 
   return (
     <>
-      <div>
+      <div className="employee-details">
         <h2>{name}</h2>
         <h3>{role}</h3>
       </div>
