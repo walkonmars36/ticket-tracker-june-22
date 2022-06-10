@@ -3,9 +3,12 @@ import "./HeaderSection.scss";
 
 const HeaderSection = () => {
   return (
-    <div className="header">
-      <h1 className="header__heading">Ticket Tracker</h1>
-    </div>
+    <>
+      <div className="header">
+        <h1 className="header__heading">Ticket Tracker</h1>
+        <button className="header__button">Add Team Member</button>
+      </div>
+    </>
   );
 };
 

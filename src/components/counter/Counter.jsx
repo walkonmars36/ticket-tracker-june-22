@@ -8,7 +8,8 @@ const plusSign = <FontAwesomeIcon icon={faPlus} />;
 const minusSign = <FontAwesomeIcon icon={faMinus} />;
 
 const Counter = () => {
-  const [count, setCount] = useState(0);
+  const initialTickets = Math.floor(Math.random() * 30);
+  const [count, setCount] = useState(initialTickets);
 
   const decrementCount = () => {
     if (count >= 1) {
@@ -29,7 +30,7 @@ const Counter = () => {
         <button onClick={decrementCount} className="counter__button-div--btn">
           {minusSign}
         </button>
-        <div className="counter__count"> {count}</div>
+        <div className="counter__count">{count}</div>
 
         <button onClick={incrementCount} className="counter__button-div--btn">
           {plusSign}
