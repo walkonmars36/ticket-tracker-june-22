@@ -2,7 +2,7 @@
   "name": "ticket-tracker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/walkonmars36/ticket-tracker-june-22.git/",
+  "homepage": "https://walkonmars36.github.io/ticket-tracker-june-22/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
