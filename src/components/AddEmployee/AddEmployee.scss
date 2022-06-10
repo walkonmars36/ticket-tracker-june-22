@@ -11,6 +11,23 @@
   background-color: $color-green;
   box-shadow: 1px 1px 0px 40px rgba($color-dark-purple, 0.6);
 
+  &__cancel-btn {
+    width: 20%;
+    align-self: flex-start;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    margin-bottom: 3rem;
+  }
+
+  &__submit {
+    width: 20%;
+    align-self: flex-end;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5em 0;
+    margin-top: 2rem;
+  }
+
   &__input {
     border: none;
     margin: 0.3rem 0 1em;
