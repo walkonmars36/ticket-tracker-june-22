@@ -1,8 +1,8 @@
 import React from "react";
 import "./Employee.scss";
 
-const Employee = ({teamMember}) => {
-  const {name, role} = teamMember;
+const Employee = ({team}) => {
+  const {name, role} = team;
 
   return (
     <>
