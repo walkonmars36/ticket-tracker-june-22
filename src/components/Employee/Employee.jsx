@@ -4,8 +4,6 @@ import "./Employee.scss";
 const Employee = ({teamMember}) => {
   const {name, role} = teamMember;
 
-  console.log(teamMember);
-
   return (
     <>
       <div className="employee-details">

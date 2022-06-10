@@ -5,11 +5,16 @@
   flex-direction: column;
   align-content: center;
   width: 80%;
-  margin: 3rem auto;
-  padding: 5em;
-  border: 1px solid;
+  margin: 4rem auto 3rem;
+  padding: 5em 3em;
+  border-radius: 7px;
   background-color: $color-green;
+  box-shadow: 1px 1px 0px 40px rgba($color-dark-purple, 0.6);
 
   &__input {
+    border: none;
+    margin: 0.3rem 0 1em;
+    border-radius: 20px;
+    padding: 1em;
   }
 }
