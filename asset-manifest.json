@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/walkonmars36/ticket-tracker-june-22.git/static/css/main.c6f53c74.css",
+    "main.js": "/walkonmars36/ticket-tracker-june-22.git/static/js/main.94b09935.js",
+    "static/js/787.99c52fad.chunk.js": "/walkonmars36/ticket-tracker-june-22.git/static/js/787.99c52fad.chunk.js",
+    "index.html": "/walkonmars36/ticket-tracker-june-22.git/index.html",
+    "main.c6f53c74.css.map": "/walkonmars36/ticket-tracker-june-22.git/static/css/main.c6f53c74.css.map",
+    "main.94b09935.js.map": "/walkonmars36/ticket-tracker-june-22.git/static/js/main.94b09935.js.map",
+    "787.99c52fad.chunk.js.map": "/walkonmars36/ticket-tracker-june-22.git/static/js/787.99c52fad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6f53c74.css",
+    "static/js/main.94b09935.js"
+  ]
+}
