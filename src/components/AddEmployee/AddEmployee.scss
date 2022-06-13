@@ -4,8 +4,8 @@
   display: flex;
   flex-direction: column;
   align-content: center;
-  width: 80%;
-  max-width: 50rem;
+  width: 70%;
+  max-width: 43rem;
   margin: 4rem auto 3rem;
   padding: 5em 3em;
   border-radius: 7px;
@@ -13,19 +13,17 @@
   box-shadow: 1px 1px 0px 40px rgba($color-dark-purple, 0.6);
 
   &__cancel-btn {
-    width: 20%;
     align-self: flex-start;
     border-radius: 20px;
-    padding: 0.5em 1em;
+    padding: 0.5em 2em;
     margin-bottom: 3rem;
   }
 
   &__submit {
-    width: 20%;
     align-self: flex-end;
     border: none;
     border-radius: 20px;
-    padding: 0.5em 0;
+    padding: 0.5em 2em;
     margin-top: 2rem;
   }
 

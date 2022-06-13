@@ -5,6 +5,7 @@ import teamMembers from "./data/team";
 import EmployeeCard from "./components/EmployeeCard/EmployeeCard";
 import HeaderSection from "./components/HeaderSection/HeaderSection";
 import AddEmployee from "./components/AddEmployee/AddEmployee";
+import {faSleigh} from "@fortawesome/free-solid-svg-icons";
 
 const App = () => {
   const [AddEmployeeForm, setAddEmployeeForm] = useState(false);
@@ -19,9 +20,12 @@ const App = () => {
       role: e.target[2].value,
     };
 
-    console.log(newMember);
-
     setTeam([...team, newMember]);
+  };
+
+  const handleCancel = (e) => {
+    e.preventDefault();
+    setAddEmployeeForm(false);
   };
 
   const toggleAddEmployee = () => {
@@ -37,7 +41,7 @@ const App = () => {
   return (
     <>
       <HeaderSection toggleForm={toggleAddEmployee} />
-      {AddEmployeeForm && <AddEmployee handleAddMember={handleAddMember} />}
+      {AddEmployeeForm && <AddEmployee handleAddMember={handleAddMember} handleCancel={handleCancel} />}
 
       <div className="content">{team.map(getEmployeeCard)}</div>
     </>
