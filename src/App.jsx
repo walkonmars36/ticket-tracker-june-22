@@ -11,15 +11,17 @@ const App = () => {
   const [team, setTeam] = useState(teamMembers);
 
   const handleAddMember = (e) => {
-    console.log(e.target.value);
+    e.preventDefault();
+
     const newMember = {
       id: team.length + 1,
-      name: e.target.name.value,
-      role: e.target.role.value,
+      name: e.target[1].value,
+      role: e.target[2].value,
     };
 
+    console.log(newMember);
+
     setTeam([...team, newMember]);
-    e.target.reset();
   };
 
   const toggleAddEmployee = () => {
