@@ -21,6 +21,7 @@ const App = () => {
     };
 
     setTeam([...team, newMember]);
+    setAddEmployeeForm(false);
   };
 
   const handleCancel = (e) => {
