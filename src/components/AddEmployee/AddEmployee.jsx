@@ -1,10 +1,10 @@
 import React from "react";
 import "./AddEmployee.scss";
 
-const AddEmployee = ({toggleForm, handleSubmit}) => {
+const AddEmployee = ({toggleForm, handleAddMember}) => {
   return (
     <div>
-      <form className="employee-form" onSubmit={handleSubmit}>
+      <form className="employee-form" onSubmit={handleAddMember}>
         <button className="employee-form__cancel-btn" onClick={toggleForm}>
           Cancel
         </button>

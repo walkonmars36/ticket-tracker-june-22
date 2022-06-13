@@ -10,9 +10,8 @@ const App = () => {
   const [AddEmployeeForm, setAddEmployeeForm] = useState(false);
   const [team, setTeam] = useState(teamMembers);
 
-  const handleSubmit = (e) => {
-    e.prevent.default();
-
+  const handleAddMember = (e) => {
+    console.log(e.target.value);
     const newMember = {
       id: team.length + 1,
       name: e.target.name.value,
@@ -36,7 +35,7 @@ const App = () => {
   return (
     <>
       <HeaderSection toggleForm={toggleAddEmployee} />
-      {AddEmployeeForm && <AddEmployee handleSubmit={handleSubmit} />}
+      {AddEmployeeForm && <AddEmployee handleAddMember={handleAddMember} />}
 
       <div className="content">{team.map(getEmployeeCard)}</div>
     </>
